@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garavito02</title>
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link del css -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Portafolio</a>
+
+        <!-- barra de navegacion -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- boton pa cambiar los colors de la pagina -->
+        <div class='bx bx-moon' id="darkMode-icon"></div>
+
+        <!-- boton de menu -->
+        <div class='bx bx-menu' id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <!-- logo y titulo -->
+        <div class="home-content">
+            <h3>Hola, me llamo</h3>
+            <h1>Cristhian Duque Garavito.</h1>
+            <p>Estudiante de Ing. de Sistemas</p>
+
+            <!-- redes sociales -->
+            <div class="social-media">
+                <a href="https://www.facebook.com/cristhian.garavito"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/garavito0203"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/duquegar_2005/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/cristhian-garavito-6306a4269/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/duque-garavito"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <!-- boton de descarga del cv -->
+            <a href="cristhian_Duque_Garavito.pdf" class="btn" download>Download CV</a>
+        </div>
+
+        <!-- profesiones -->
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>WEB DEVELOPER</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette'></i>
+                    <h3>MARKETING</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-wrench'></i>
+                    <h3>TECNICO DE PC</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-camera'></i>
+                    <h3>FOTOGRAFO</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+        <!-- imagen de fondo -->
+        <div class="home-img">
+            <img src="img/presentable sin fondo.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Acerca de <span>Mi</span></h2>
+            <h3>Hola, bienvenidos a mi portafolio</h3>
+            <p>Me llamo Cristhian Duque Garavito, tengo 18 años. Soy de la ciudad de Chulucanas, pero actualmente vivo
+                en Paita. Estudio la carrera de Ing. de Sistemas ya que me encanta la programación. Otro hobby es la
+                fotografía, me encanta capturar los mejores momentos que me transmiten felicidad.</p>
+            <a href="#" class="btn">Ver Mas</a>
+        </div>
+    </section>
+
+    <!-- diseño de la seccion de servicios -->
+    <section class="services" id="services">
+        <h2 class="heading">Mis <span>servicios</span></h2>
+
+        <div class="services-container">
+            <!-- servicios -->
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>WEB DEVELOPER</h3>
+                <p>Ofrezco mis servicios como programador y desarrollador web, ofrezco un servicio profesional y
+                    personalizado para tu negocio.</p>
+                <a href="#" class="btn">Ver Mas</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-store-alt'></i>
+                <h3>DIGITAL MARKETING</h3>
+                <p>Ofrezco mis servicios como especialista en marketing digital, brindando soluciones personalizadas
+                    para tu negocio.</p>
+                <a href="#" class="btn">Ver Mas</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-wrench'></i>
+                <h3>TECNICO DE PC</h3>
+                <p>Ofrezco servicios técnicos para solucionar problemas con computadoras y dispositivos, garantizando un
+                    servicio confiable y eficiente.</p>
+                <a href="#" class="btn">Ver Mas</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-camera'></i>
+                <h3>FOTOGRAFO</h3>
+                <p>Como fotógrafo, capturo momentos especiales y creo imágenes impactantes. Ofrezco servicios de
+                    fotografía para diversos eventos y proyectos.</p>
+                <a href="#" class="btn">Ver Mas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portafolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Ultimo <span>Proyecto</span></h2>
+
+        <div class="portfolio-container"> <!-- proyectos -->
+            <div class="portfolio-box">
+                <img src="img/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>El diseño web es uno de mis proyectos, en el cual he estado trabajando últimamente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>El diseño web es uno de mis proyectos, en el cual he estado trabajando últimamente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>El diseño web es uno de mis proyectos, en el cual he estado trabajando últimamente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>El diseño web es uno de mis proyectos, en el cual he estado trabajando últimamente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>El diseño web es uno de mis proyectos, en el cual he estado trabajando últimamente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>El diseño web es uno de mis proyectos, en el cual he estado trabajando últimamente.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/testimonial1.jpg" alt=""> <!-- testimonios -->
+                        <h3>Hola, ¿cómo estás?</h3>
+                        <p>Soy estudiante de Ing. de Sistemas en la Universidad Cesar Vallejo y tengo como meta acabar
+                            mi carrera profesional. Soy estudiante de Ing. de Sistemas en la Universidad Cesar Vallejo y
+                            tengo como meta acabar mi carrera profesional. Soy estudiante de Ing. de Sistemas en la
+                            Universidad Cesar Vallejo y tengo como meta acabar mi carrera profesional. Soy estudiante de
+                            Ing. de Sistemas en la Universidad Cesar Vallejo y tengo como meta acabar mi carrera
+                            profesional.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/testimonial2.jpg" alt=""> <!-- testimonios -->
+                        <h3>Hola, ¿cómo estás?</h3>
+                        <p>Soy estudiante de Ing. de Sistemas en la Universidad Cesar Vallejo y tengo como meta acabar
+                            mi carrera profesional. Soy estudiante de Ing. de Sistemas en la Universidad Cesar Vallejo y
+                            tengo como meta acabar mi carrera profesional. Soy estudiante de Ing. de Sistemas en la
+                            Universidad Cesar Vallejo y tengo como meta acabar mi carrera profesional. Soy estudiante de
+                            Ing. de Sistemas en la Universidad Cesar Vallejo y tengo como meta acabar mi carrera
+                            profesional.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img/testimonial3.jpg" alt=""> <!-- testimonios -->
+                        <h3>Hola, ¿cómo estás?</h3>
+                        <p>Soy estudiante de Ing. de Sistemas en la Universidad Cesar Vallejo y tengo como meta acabar
+                            mi carrera profesional. Soy estudiante de Ing. de Sistemas en la Universidad Cesar Vallejo y
+                            tengo como meta acabar mi carrera profesional. Soy estudiante de Ing. de Sistemas en la
+                            Universidad Cesar Vallejo y tengo como meta acabar mi carrera profesional. Soy estudiante de
+                            Ing. de Sistemas en la Universidad Cesar Vallejo y tengo como meta acabar mi carrera
+                            profesional.</p>
+                    </div>
+                    
+                    <!-- Agrega más testimonios si es necesario -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section desing -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer desing -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Cristhian | All rights reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- enlace al js -->
+    <script src="animacion.js"></script>
+</body>
+
+</html>
